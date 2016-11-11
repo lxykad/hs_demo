@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <com.hundsun.quotewidget.widget.QwKlineView
+        android:id="@+id/quote_kline_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="60dip"
+        android:orientation="vertical"
+        android:layout_marginLeft="6dip"
+        android:padding="0dip"
+        android:background="@drawable/hlsdlg_keyboard_but_a2"
+        android:layout_height="fill_parent" >
+
+        <ListView
+            android:id="@+id/quote_kline_mode"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="#00000000"
+            android:divider="@android:color/transparent"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="0.6dp"
+            android:background="@color/gray"/>
+
+        <ListView
+            android:id="@+id/quote_kline_tec"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:cacheColorHint="#00000000"
+            android:divider="@android:color/transparent"
+            android:listSelector="@android:color/transparent"
+            android:scrollbars="none" />
+    </LinearLayout>
+
+</merge><!-- From: file:/Users/lxy/Desktop/hs/app/build/intermediates/exploded-aar/quotewidget/res/layout/hlsdlg_qii_widget_kline_landscape.xml -->

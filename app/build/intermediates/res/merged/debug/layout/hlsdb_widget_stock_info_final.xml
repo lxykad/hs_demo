@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hlsdb_StockInfoFinalsLL"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="8dp"
+    android:orientation="vertical" >
+
+    <TableLayout
+        android:id="@+id/hlsdb_business_income_tl"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TableRow
+            android:id="@+id/hlsdb_business_income_tr"
+            android:layout_weight="1"
+            android:clickable="false" >
+
+            <TextView
+                android:id="@+id/hlsdb_businessIncomeTextView"
+                style="@style/hlsdb_stock_info_means_header_txt_style"
+                android:text="@string/hlsdb_business_income_Lable" />
+
+            <TextView
+                style="@style/hlsdb_stock_info_final_value_txt_style"
+                android:text="@string/hlsdb_middle_report_2014_Lable" />
+        </TableRow>
+    </TableLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:id="@+id/hlsdb_line1"
+        android:background="@drawable/hlsdb_common_splite_line_solid" />
+
+    <TableLayout
+        android:id="@+id/hlsdb_business_income_tl_"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TableRow
+            android:id="@+id/hlsdb_basic_eps_tr"
+            android:layout_weight="1"
+            android:clickable="false" >
+
+            <TextView
+                android:id="@+id/hlsdb_basic_eps_key"
+                style="@style/hlsdb_stock_info_means_txt_style_two"
+                android:text="@string/hlsdb_basic_eps_lable" />
+
+            <TextView
+                android:id="@+id/hlsdb_basic_eps_value"
+                style="@style/hlsdb_stock_info_final_value_txt_style" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/hlsdb_total_oper_revenueps_tr"
+            android:layout_weight="1"
+            android:clickable="false" >
+
+            <TextView
+                android:id="@+id/hlsdb_total_oper_revenueps_key"
+                style="@style/hlsdb_stock_info_means_txt_style_two"
+                android:text="@string/hlsdb_total_oper_revenueps_lable" />
+
+            <TextView
+                android:id="@+id/hlsdb_total_oper_revenueps_value"
+                style="@style/hlsdb_stock_info_final_value_txt_style" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/hlsdb_capital_reserver_per_share_tr"
+            android:layout_weight="1"
+            android:clickable="false" >
+
+            <TextView
+                android:id="@+id/hlsdb_eps_key"
+                style="@style/hlsdb_stock_info_means_txt_style_two"
+                android:text="@string/hlsdb_eps_lable" />
+
+            <TextView
+                android:id="@+id/hlsdb_eps_value"
+                style="@style/hlsdb_stock_info_final_value_txt_style" />
+        </TableRow>
+    </TableLayout>
+    <!-- 营业收入 -->
+
+    <TableLayout
+        android:id="@+id/hlsdb_assets_liability_tl"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TableRow
+            android:id="@+id/hlsdb_assets_liability_tr"
+            android:layout_weight="1"
+            android:clickable="false" >
+
+            <TextView
+                android:id="@+id/hlsdb_assetsHeaderTextView"
+                style="@style/hlsdb_stock_info_means_header_txt_style"
+                android:text="@string/hlsdb_assets_liability_lable" />
+
+            <TextView
+                style="@style/hlsdb_stock_info_final_value_txt_style"
+                android:text="@string/hlsdb_middle_report_2014_Lable" />
+        </TableRow>
+    </TableLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dp"
+        android:id="@+id/hlsdb_line2"
+        android:background="@drawable/hlsdb_common_splite_line_solid" />
+
+    <TableLayout
+        android:id="@+id/hlsdb_naps_tl"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <TableRow
+            android:id="@+id/hlsdb_naps_tr"
+            android:layout_weight="1"
+            android:clickable="false" >
+
+            <TextView
+                android:id="@+id/hlsdb_naps_key"
+                style="@style/hlsdb_stock_info_means_txt_style_two"
+                android:text="@string/hlsdb_naps_lable" />
+
+            <TextView
+                android:id="@+id/hlsdb_naps_value"
+                style="@style/hlsdb_stock_info_final_value_txt_style" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/hlsdb_total_non_current_assets_tr"
+            android:layout_weight="1"
+            android:clickable="false" >
+
+            <TextView
+                android:id="@+id/hlsdb_total_non_current_assets_key"
+                style="@style/hlsdb_stock_info_means_txt_style_two"
+                android:text="@string/hlsdb_total_non_current_assets_lable" />
+
+            <TextView
+                android:id="@+id/hlsdb_total_non_current_assets_value"
+                style="@style/hlsdb_stock_info_final_value_txt_style" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/hlsdb_total_current_assets_tr"
+            android:layout_weight="1"
+            android:clickable="false" >
+
+            <TextView
+                android:id="@+id/hlsdb_total_current_assets_key"
+                style="@style/hlsdb_stock_info_means_txt_style_two"
+                android:text="@string/hlsdb_total_current_assets_lable" />
+
+            <TextView
+                android:id="@+id/hlsdb_total_current_assets_value"
+                style="@style/hlsdb_stock_info_final_value_txt_style" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/hlsdb_business_profits_add_radio_tr"
+            android:layout_weight="1"
+            android:clickable="false" >
+
+            <TextView
+                android:id="@+id/hlsdb_total_assets_key"
+                style="@style/hlsdb_stock_info_means_txt_style_two"
+                android:text="@string/hlsdb_total_assets_lable" />
+
+            <TextView
+                android:id="@+id/hlsdb_total_assets_value"
+                style="@style/hlsdb_stock_info_final_value_txt_style" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/hlsdb_total_current_liability_tr"
+            android:layout_weight="1"
+            android:clickable="false" >
+
+            <TextView
+                android:id="@+id/hlsdb_total_current_liability_key"
+                style="@style/hlsdb_stock_info_means_txt_style_two"
+                android:text="@string/hlsdb_total_current_liability_lable" />
+
+            <TextView
+                android:id="@+id/hlsdb_total_current_liability_value"
+                style="@style/hlsdb_stock_info_final_value_txt_style" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/hlsdb_total_liability_tr"
+            android:layout_weight="1"
+            android:clickable="false" >
+
+            <TextView
+                android:id="@+id/hlsdb_total_liability_key"
+                style="@style/hlsdb_stock_info_means_txt_style_two"
+                android:text="@string/hlsdb_total_liability_lable" />
+
+            <TextView
+                android:id="@+id/hlsdb_total_liability_value"
+                style="@style/hlsdb_stock_info_final_value_txt_style" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/hlsdb_total_shareholder_equity_tr"
+            android:layout_weight="1"
+            android:clickable="false" >
+
+            <TextView
+                android:id="@+id/hlsdb_total_shareholder_equity_key"
+                style="@style/hlsdb_stock_info_means_txt_style_two"
+                android:text="@string/hlsdb_total_shareholder_equity_lable" />
+
+            <TextView
+                android:id="@+id/hlsdb_total_shareholder_equity_value"
+                style="@style/hlsdb_stock_info_final_value_txt_style" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout><!-- From: file:/Users/lxy/Desktop/hs/app/build/intermediates/exploded-aar/quotewidget/res/layout/hlsdb_widget_stock_info_final.xml -->

@@ -1,0 +1,24 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.hundsun.quotewidget.demo.MainActivity" >
+
+
+    <ListView
+        android:id="@id/android:list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:cacheColorHint="#ffffff"
+        android:divider="@drawable/common_list_divider"
+        android:drawSelectorOnTop="false"
+        android:listSelector="@drawable/common_list_selector_background"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp"
+        android:scrollbars="none" />
+
+</RelativeLayout>

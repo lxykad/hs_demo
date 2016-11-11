@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="9dp"
+    android:id="@+id/qii_widget_level2_zhubi_left">
+
+    <TableRow android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/left_lable_1"
+            style="@style/hlsdlg_qii_level2_label_Text_Style" />
+
+        <TextView
+            android:id="@+id/left1_price"
+            style="@style/hlsdlg_qii_level2_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/left1_amount"
+            style="@style/hlsdlg_qii_level2_volume_Text_Style" />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/left_lable_2"
+            style="@style/hlsdlg_qii_level2_label_Text_Style" />
+
+        <TextView
+            android:id="@+id/left2_price"
+            style="@style/hlsdlg_qii_level2_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/left2_amount"
+            style="@style/hlsdlg_qii_level2_volume_Text_Style" />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/left_lable_3"
+            style="@style/hlsdlg_qii_level2_label_Text_Style" />
+
+        <TextView
+            android:id="@+id/left3_price"
+            style="@style/hlsdlg_qii_level2_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/left3_amount"
+            style="@style/hlsdlg_qii_level2_volume_Text_Style" />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/left_lable_4"
+            style="@style/hlsdlg_qii_level2_label_Text_Style" />
+
+        <TextView
+            android:id="@+id/left4_price"
+            style="@style/hlsdlg_qii_level2_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/left4_amount"
+            style="@style/hlsdlg_qii_level2_volume_Text_Style" />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/left_lable_5"
+            android:visibility="gone"
+            style="@style/hlsdlg_qii_level2_label_Text_Style" />
+
+        <TextView
+            android:id="@+id/left5_price"
+            android:visibility="gone"
+            style="@style/hlsdlg_qii_level2_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/left5_amount"
+            android:visibility="gone"
+            style="@style/hlsdlg_qii_level2_volume_Text_Style" />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/left_lable_6"
+            android:visibility="gone"
+            style="@style/hlsdlg_qii_level2_label_Text_Style" />
+
+        <TextView
+            android:id="@+id/left6_price"
+            android:visibility="gone"
+            style="@style/hlsdlg_qii_level2_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/left6_amount"
+            android:visibility="gone"
+            style="@style/hlsdlg_qii_level2_volume_Text_Style" />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/left_lable_7"
+            android:visibility="gone"
+            style="@style/hlsdlg_qii_level2_label_Text_Style" />
+
+        <TextView
+            android:id="@+id/left7_price"
+            android:visibility="gone"
+            style="@style/hlsdlg_qii_level2_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/left7_amount"
+            android:visibility="gone"
+            style="@style/hlsdlg_qii_level2_volume_Text_Style" />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/left_lable_8"
+            android:visibility="gone"
+            style="@style/hlsdlg_qii_level2_label_Text_Style" />
+
+        <TextView
+            android:id="@+id/left8_price"
+            android:visibility="gone"
+            style="@style/hlsdlg_qii_level2_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/left8_amount"
+            android:visibility="gone"
+            style="@style/hlsdlg_qii_level2_volume_Text_Style" />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <TextView
+            android:id="@+id/left_lable_9"
+            android:visibility="gone"
+            style="@style/hlsdlg_qii_level2_label_Text_Style" />
+
+        <TextView
+            android:id="@+id/left9_price"
+            android:visibility="gone"
+            style="@style/hlsdlg_qii_level2_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/left9_amount"
+            android:visibility="gone"
+            style="@style/hlsdlg_qii_level2_volume_Text_Style" />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/left_lable_10"
+            android:visibility="gone"
+            style="@style/hlsdlg_qii_level2_label_Text_Style" />
+
+        <TextView
+            android:id="@+id/left10_price"
+            android:visibility="gone"
+            style="@style/hlsdlg_qii_level2_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/left10_amount"
+            android:visibility="gone"
+            style="@style/hlsdlg_qii_level2_volume_Text_Style" />
+    </TableRow>
+
+</TableLayout>

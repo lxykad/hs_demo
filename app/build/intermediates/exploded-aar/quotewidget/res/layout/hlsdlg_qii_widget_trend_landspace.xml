@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:orientation="horizontal"
+    android:layout_height="fill_parent" >
+
+    <com.hundsun.quotewidget.widget.QwTrendViewTouchable
+        android:id="@+id/quote_trend_view"
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:layout_width="120dip"
+        android:layout_height="fill_parent"
+        android:background="@color/hlsdlg_qii_quote_trend_background_color"
+        android:orientation="vertical" >
+
+        <com.hundsun.quotewidget.widget.QiiButtonGroup
+            android:id="@+id/qii_bid_offer_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="26dip"
+            android:layout_marginBottom="0dp"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <!--<TextView-->
+                <!--android:id="@+id/qii_bar_bid_offer_button"-->
+                <!--style="@style/qii_quote_bar_nomal_value"-->
+                <!--android:layout_height="26dip"-->
+                <!--android:textSize="@dimen/font_size_12"-->
+                <!--android:text="报价" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/qii_bar_deal_detail_button"-->
+                <!--style="@style/qii_quote_bar_nomal_value"-->
+                <!--android:textSize="@dimen/font_size_12"-->
+                <!--android:layout_height="26dip"-->
+                <!--android:text="明细" />-->
+
+        </com.hundsun.quotewidget.widget.QiiButtonGroup>
+
+        <FrameLayout
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:id="@+id/quote_bidoffer_deal_widget"
+            android:layout_weight="1" >
+
+            <com.hundsun.quotewidget.widget.QiiStockBidOfferListWidget
+                android:id="@+id/quote_bid_offer_view"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="4dip"
+                android:layout_marginRight="2dip" />
+        </FrameLayout>
+    </LinearLayout>
+
+</LinearLayout>

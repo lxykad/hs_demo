@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="85dp"
+    android:minWidth="160dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/stock_name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/hlqb_stock_name_color"
+        android:layout_gravity="center_horizontal"
+        android:singleLine="true"
+        android:gravity="center"
+        android:textSize="@dimen/font_size_16"
+        android:text="上证指数" />
+
+    <TextView
+        android:id="@+id/quote_updown_percent"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:textSize="@dimen/font_size_16"
+        android:text="2630.49" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <com.hundsun.quotewidget.widget.QiiAutoTextSizeView
+            android:id="@+id/lead_stock_name"
+            android:singleLine="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:maxWidth="60dp"
+            android:maxHeight="14dp"
+            android:layout_gravity="center"
+            android:gravity="right"
+            android:textSize="@dimen/font_size_12"
+            android:text="恒生电子" />
+
+        <TextView
+            android:id="@+id/lead_stock_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:paddingLeft="4dip"
+            android:textSize="@dimen/font_size_12"
+            android:text="600570" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/lead_stock_price_change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="right"
+            android:textSize="@dimen/font_size_12"
+            android:text="26.49" />
+
+        <TextView
+            android:id="@+id/lead_stock_change_percent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="left"
+            android:paddingLeft="4dip"
+            android:textSize="@dimen/font_size_12"
+            android:text="+10.00%" />
+    </LinearLayout>
+
+</LinearLayout>

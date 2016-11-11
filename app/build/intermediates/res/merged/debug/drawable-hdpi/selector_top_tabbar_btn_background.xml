@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true"  android:drawable="@drawable/qii_tabitem_background_checked" />
+    <item android:drawable="@android:color/transparent" />
+</selector><!-- From: file:/Users/lxy/Desktop/hs/app/src/main/res/drawable-hdpi/selector_top_tabbar_btn_background.xml -->

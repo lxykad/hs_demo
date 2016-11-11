@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/quotre_bid_sell_table"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableRow
+        android:id="@+id/quotre_offer5_tr"
+        android:layout_weight="1"
+        android:clickable="true" >
+
+        <TextView
+            style="@style/hlsdlg_qii_bidoffer_label_Text_Style"
+            android:text="@string/hlsdlg_offer5_label" />
+
+        <TextView
+            android:id="@+id/quotre_offer_price5"
+            style="@style/hlsdlg_qii_bidoffer_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/quotre_offer_volume5"
+            style="@style/hlsdlg_qii_bidoffer_volume_Text_Style" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/quotre_offer4_tr"
+        android:layout_weight="1"
+        android:clickable="true" >
+
+        <TextView
+            style="@style/hlsdlg_qii_bidoffer_label_Text_Style"
+            android:text="@string/hlsdlg_offer4_label" />
+
+        <TextView
+            android:id="@+id/quotre_offer_price4"
+            style="@style/hlsdlg_qii_bidoffer_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/quotre_offer_volume4"
+            style="@style/hlsdlg_qii_bidoffer_volume_Text_Style" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/quotre_offer3_tr"
+        android:layout_weight="1"
+        android:clickable="true" >
+
+        <TextView
+            style="@style/hlsdlg_qii_bidoffer_label_Text_Style"
+            android:text="@string/hlsdlg_offer3_label" />
+
+        <TextView
+            android:id="@+id/quotre_offer_price3"
+            style="@style/hlsdlg_qii_bidoffer_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/quotre_offer_volume3"
+            style="@style/hlsdlg_qii_bidoffer_volume_Text_Style" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/quotre_offer2_tr"
+        android:layout_weight="1"
+        android:clickable="true" >
+
+        <TextView
+            style="@style/hlsdlg_qii_bidoffer_label_Text_Style"
+            android:text="@string/hlsdlg_offer2_label" />
+
+        <TextView
+            android:id="@+id/quotre_offer_price2"
+            style="@style/hlsdlg_qii_bidoffer_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/quotre_offer_volume2"
+            style="@style/hlsdlg_qii_bidoffer_volume_Text_Style" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/quotre_offer1_tr"
+        android:layout_weight="1"
+        android:clickable="true" >
+
+        <TextView
+            style="@style/hlsdlg_qii_bidoffer_label_Text_Style"
+            android:text="@string/hlsdlg_offer1_label" />
+
+        <TextView
+            android:id="@+id/quotre_offer_price1"
+            style="@style/hlsdlg_qii_bidoffer_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/quotre_offer_volume1"
+            style="@style/hlsdlg_qii_bidoffer_volume_Text_Style" />
+    </TableRow>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/hlsdlg_common_splite_line_solid" />
+
+    <TableRow
+        android:id="@+id/quotre_bid1_tr"
+        android:layout_weight="1"
+        android:clickable="true" >
+
+        <TextView
+            style="@style/hlsdlg_qii_bidoffer_label_Text_Style"
+            android:text="@string/hlsdlg_bid1_label" />
+
+        <TextView
+            android:id="@+id/quotre_bid_price1"
+            style="@style/hlsdlg_qii_bidoffer_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/quotre_bid_volume1"
+            style="@style/hlsdlg_qii_bidoffer_volume_Text_Style" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/quotre_bid2_tr"
+        android:layout_weight="1"
+        android:clickable="true" >
+
+        <TextView
+            style="@style/hlsdlg_qii_bidoffer_label_Text_Style"
+            android:text="@string/hlsdlg_bid2_label" />
+
+        <TextView
+            android:id="@+id/quotre_bid_price2"
+            style="@style/hlsdlg_qii_bidoffer_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/quotre_bid_volume2"
+            style="@style/hlsdlg_qii_bidoffer_volume_Text_Style" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/quotre_bid3_tr"
+        android:layout_weight="1"
+        android:clickable="true" >
+
+        <TextView
+            style="@style/hlsdlg_qii_bidoffer_label_Text_Style"
+            android:text="@string/hlsdlg_bid3_label" />
+
+        <TextView
+            android:id="@+id/quotre_bid_price3"
+            style="@style/hlsdlg_qii_bidoffer_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/quotre_bid_volume3"
+            style="@style/hlsdlg_qii_bidoffer_volume_Text_Style" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/quotre_bid4_tr"
+        android:layout_weight="1"
+        android:clickable="true" >
+
+        <TextView
+            style="@style/hlsdlg_qii_bidoffer_label_Text_Style"
+            android:text="@string/hlsdlg_bid4_label" />
+
+        <TextView
+            android:id="@+id/quotre_bid_price4"
+            style="@style/hlsdlg_qii_bidoffer_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/quotre_bid_volume4"
+            style="@style/hlsdlg_qii_bidoffer_volume_Text_Style" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/quotre_bid5_tr"
+        android:layout_weight="1"
+        android:clickable="true" >
+
+        <TextView
+            style="@style/hlsdlg_qii_bidoffer_label_Text_Style"
+            android:text="@string/hlsdlg_bid5_label" />
+
+        <TextView
+            android:id="@+id/quotre_bid_price5"
+            style="@style/hlsdlg_qii_bidoffer_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/quotre_bid_volume5"
+            style="@style/hlsdlg_qii_bidoffer_volume_Text_Style" />
+    </TableRow>
+
+</TableLayout>

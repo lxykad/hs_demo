@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+
+              android:baselineAligned="false"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/topC"
+        android:layout_width="fill_parent"
+        android:layout_height="100dip"
+        android:layout_alignParentTop="true"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" android:layout_marginRight="5dp"
+            android:background="@drawable/hlsdlg_round_bord"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="70dip">
+
+                <TextView
+                    android:id="@+id/selllist_tv"
+                    style="@style/hlsdlg_qii_level2_label_Text_Style"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/hlsdlg_stock_name_color"
+                    android:textSize="12sp"/>
+            </ScrollView>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true" android:layout_marginLeft="-3dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/hlsdlg_qii_level2_label_Text_Style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="32dip"
+                        android:text="@string/hlsdlg_offer1_label"/>
+
+                    <TextView
+                        android:id="@+id/offer1_price"
+                        style="@style/hlsdlg_qii_level2_price_Text_Style"
+                        android:layout_height="32dip"/>
+
+                    <TextView
+                        android:id="@+id/offer1_amount"
+                        style="@style/hlsdlg_qii_level2_volume_Text_Style"
+                        android:layout_height="32dip"/>
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/level2_totalsell1"
+                    style="@style/hlsdlg_qii_level2_price_Text_Style"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:gravity="right"
+                    android:layout_alignParentBottom="true"
+                    android:paddingRight="10dip"/>
+            </RelativeLayout>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" android:layout_marginLeft="5dp"
+            android:background="@drawable/hlsdlg_round_bord"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="70dip">
+
+                <TextView
+                    android:id="@+id/buylist_tv"
+                    style="@style/hlsdlg_qii_level2_label_Text_Style"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/hlsdlg_stock_name_color"
+                    android:gravity="left"
+                    android:textSize="12sp"/>
+            </ScrollView>
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+                <TextView
+                    android:id="@+id/level2_totalbuy1"
+                    style="@style/hlsdlg_qii_level2_price_Text_Style"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:gravity="left|bottom"
+                    android:layout_alignParentBottom="true"
+                    android:paddingLeft="10dip"/>
+
+                <LinearLayout
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:paddingLeft="3dp"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        style="@style/hlsdlg_qii_level2_label_Text_Style"
+                        android:layout_width="wrap_content"
+                        android:layout_height="32dip"
+                        android:text="@string/hlsdlg_bid1_label"/>
+
+                    <TextView
+                        android:id="@+id/bid1_price"
+                        style="@style/hlsdlg_qii_level2_price_Text_Style"
+                        android:layout_height="32dip"/>
+
+                    <TextView
+                        android:id="@+id/bid1_amount"
+                        style="@style/hlsdlg_qii_level2_volume_Text_Style"
+                        android:layout_height="32dip"/>
+                </LinearLayout>
+
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal">
+
+        <include
+            layout="@layout/hlsdlg_qii_widget_level2_landspace_offer"
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"/>
+
+        <com.hundsun.quotewidget.widget.QwTrendView
+            android:id="@+id/quote_trend_view"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="6dp"
+            android:layout_marginTop="6dp"
+            android:layout_weight="1">
+
+        </com.hundsun.quotewidget.widget.QwTrendView>
+
+        <include
+            layout="@layout/hlsdlg_qii_widget_level2_landspace_bid"
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"/>
+    </LinearLayout>
+
+</LinearLayout><!-- From: file:/Users/lxy/Desktop/hs/app/build/intermediates/exploded-aar/quotewidget/res/layout/hlsdlg_qii_widget_level2_landspace.xml -->

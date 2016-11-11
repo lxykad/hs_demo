@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="libH5SDK-J2SE-1.0.4.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libH5SDK-J2SE-1.0.4.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

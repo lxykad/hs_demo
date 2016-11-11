@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp">
+    <TextView
+        android:id="@+id/stock_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:singleLine="true"
+        android:gravity="bottom"
+        android:textSize="@dimen/font_size_16"
+        android:text="xxxx"/>
+
+    <TextView
+        android:id="@+id/stock_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:layout_below="@id/stock_name"
+        android:textSize="@dimen/font_size_12"
+        android:text="123456"/>
+
+    <TextView
+        android:id="@+id/quote_last"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/stock_name"
+        android:layout_marginLeft="8dp"
+        android:gravity="left"
+        android:singleLine="true"
+        android:textSize="@dimen/font_size_16"
+        android:textStyle="bold"
+        android:text="5.72"/>
+
+    <TextView
+        android:id="@+id/quote_updown"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/quote_last"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textSize="@dimen/font_size_12"
+        android:text="1.240"/>
+
+    <TextView
+        android:id="@+id/quote_updown_percent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/quote_updown"
+        android:layout_marginLeft="12dp"
+        android:gravity="right"
+        android:singleLine="true"
+        android:textSize="@dimen/font_size_12"
+        android:text="5.2%"/>
+
+
+    <ImageView
+        android:id="@+id/landscape_back_button_image"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_centerVertical="true"
+        android:background="@drawable/hlsdlg_qii_quote_landscape_close"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"/>
+
+    <GridView
+        android:id="@+id/landscapeGridview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@id/quote_updown_percent"
+        android:layout_toLeftOf="@id/landscape_back_button_image"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp" />
+
+</RelativeLayout>
+<!-- From: file:/Users/lxy/Desktop/hs/app/build/intermediates/exploded-aar/quotewidget/res/layout/hlsdlg_landscape_gridview_layout_parent2.xml -->

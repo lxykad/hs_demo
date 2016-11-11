@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="120dp">
+    <TextView
+        android:id="@+id/Level2processInfoTv01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:textSize="12dp"
+        android:text="@string/hlsdlg_Level2_process_info" />
+    <TextView
+        android:id="@+id/Level2processInfoTv02"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:paddingBottom="38dp"
+        android:textSize="12dp"
+        android:text="@string/hlsdlg_Level2_process_info" />
+    <Button
+        android:id="@+id/Level2processBtn"
+        android:layout_width="130dip"
+        android:layout_height="wrap_content"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:gravity="center"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="18dp"
+        android:textSize="13dp"
+        android:textColor="@color/red"
+        android:background="@drawable/hlsdlg_level2_btn_style"
+        android:text="@string/hlsdlg_Level2_process_btn" />
+    <TextView
+        android:id="@+id/Level2processInfoTv03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:paddingTop="24dp"
+        android:paddingBottom="4dp"
+        android:textSize="10dp"
+        android:text="@string/hlsdlg_Level2_process_info" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:id="@+id/level2_divider"
+        android:layout_centerInParent="true"
+        android:layout_marginRight="40dp"
+        android:layout_marginLeft="40dp"
+        android:background="#999999" />
+
+</RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:paddingBottom="6dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/level2_tel_txt"
+            android:textColor="@color/red"
+            android:textSize="12dp"
+            android:layout_marginLeft="30dp"
+            android:layout_weight="1"
+            android:text="@string/hlsdlg_level2_tel_number"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/level2_already_txt"
+            android:textColor="@color/red"
+            android:textSize="12dp"
+            android:layout_marginRight="30dp"
+            android:text="@string/hlsdlg_level2_buy_already"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

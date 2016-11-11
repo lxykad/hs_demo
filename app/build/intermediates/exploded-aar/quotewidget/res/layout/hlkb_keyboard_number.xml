@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hlkb_number"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:baselineAligned="false"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_margin="2dip"
+        android:layout_weight="1"
+        android:background="@drawable/hlkb_keyboard_but_a1"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/hlkb_num_600"
+            style="@style/hlkb_QwKeyboardButtonStyle"
+            android:background="@drawable/hlkb_keyboard_but_c"
+            android:text="@string/hlkb_keyboard_num_600" />
+
+        <View style="@style/hlkb_QwKeyboardDividerStyle" />
+
+        <Button
+            android:id="@+id/hlkb_num_601"
+            style="@style/hlkb_QwKeyboardButtonStyle"
+            android:background="@drawable/hlkb_keyboard_but_c"
+            android:text="@string/hlkb_keyboard_num_601" />
+        
+        <View style="@style/hlkb_QwKeyboardDividerStyle" />
+
+        <Button
+            android:id="@+id/hlkb_num_000"
+            style="@style/hlkb_QwKeyboardButtonStyle"
+            android:background="@drawable/hlkb_keyboard_but_c"
+            android:text="@string/hlkb_keyboard_num_000" />
+        
+        <View style="@style/hlkb_QwKeyboardDividerStyle" />
+
+        <Button
+            android:id="@+id/hlkb_num_002"
+            style="@style/hlkb_QwKeyboardButtonStyle"
+            android:background="@drawable/hlkb_keyboard_but_c"
+            android:text="@string/hlkb_keyboard_num_002" />
+        
+        <View style="@style/hlkb_QwKeyboardDividerStyle" />
+
+        <Button
+            android:id="@+id/hlkb_num_300"
+            style="@style/hlkb_QwKeyboardButtonStyle"
+            android:background="@android:color/transparent"
+            android:text="@string/hlkb_keyboard_num_300" />
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="2dip"
+        android:layout_marginRight="2dip"
+        android:layout_marginTop="2dip"
+        android:layout_weight="4"
+        android:stretchColumns="*" >
+
+        <TableRow style="@style/hlkb_QwKeyboardRowStyle" android:layout_marginTop="0dip" >
+
+            <Button
+                android:id="@+id/hlkb_num_1"
+                style="@style/hlkb_QwKeyboardTableButtonStyle"
+                android:text="@string/hlkb_keyboard_num_1" />
+
+            <Button
+                android:id="@+id/hlkb_num_2"
+                style="@style/hlkb_QwKeyboardTableButtonStyle"
+                android:text="@string/hlkb_keyboard_num_2" />
+
+            <Button
+                android:id="@+id/hlkb_num_3"
+                style="@style/hlkb_QwKeyboardTableButtonStyle"
+                android:text="@string/hlkb_keyboard_num_3" />
+
+            <Button
+                android:id="@+id/hlkb_keyboard_num_delete_button"
+                style="@style/hlkb_QwKeyboardTableButtonStyle"
+                android:background="@drawable/hlkb_keyboard_but_delete" />
+        </TableRow>
+
+        <TableRow style="@style/hlkb_QwKeyboardRowStyle" >
+
+            <Button
+                android:id="@+id/hlkb_num_4"
+                style="@style/hlkb_QwKeyboardButtonStyle"
+                android:text="@string/hlkb_keyboard_num_4" />
+
+            <Button
+                android:id="@+id/hlkb_num_5"
+                style="@style/hlkb_QwKeyboardButtonStyle"
+                android:text="@string/hlkb_keyboard_num_5" />
+
+            <Button
+                android:id="@+id/hlkb_num_6"
+                style="@style/hlkb_QwKeyboardButtonStyle"
+                android:text="@string/hlkb_keyboard_num_6" />
+
+            <Button
+                android:id="@+id/hlkb_keyboard_num_hide_button"
+                style="@style/hlkb_QwKeyboardButtonStyle"
+                android:background="@drawable/hlkb_keyboard_but_b"
+                android:text="@string/hlkb_keyboard_num_hide" />
+        </TableRow>
+
+        <TableRow style="@style/hlkb_QwKeyboardRowStyle" >
+
+            <Button
+                android:id="@+id/hlkb_num_7"
+                style="@style/hlkb_QwKeyboardButtonStyle"
+                android:text="@string/hlkb_keyboard_num_7" />
+
+            <Button
+                android:id="@+id/hlkb_num_8"
+                style="@style/hlkb_QwKeyboardButtonStyle"
+                android:text="@string/hlkb_keyboard_num_8" />
+
+            <Button
+                android:id="@+id/hlkb_num_9"
+                style="@style/hlkb_QwKeyboardButtonStyle"
+                android:text="@string/hlkb_keyboard_num_9" />
+
+            <Button
+                android:id="@+id/hlkb_keyboard_num_clear_button"
+                style="@style/hlkb_QwKeyboardButtonStyle"
+                android:background="@drawable/hlkb_keyboard_but_b"
+                android:text="@string/hlkb_keyboard_num_clear" />
+        </TableRow>
+
+        <TableRow style="@style/hlkb_QwKeyboardRowStyle" >
+
+            <Button
+                android:id="@+id/hlkb_keyboard_num_abc"
+                style="@style/hlkb_QwKeyboardButtonStyle"
+                android:layout_span="1"
+                android:background="@drawable/hlkb_keyboard_but_b"
+                android:text="@string/hlkb_keyboard_num_abc" />
+
+            <Button
+                android:id="@+id/hlkb_num_0"
+                style="@style/hlkb_QwKeyboardButtonStyle"
+                android:layout_span="1"
+                android:text="@string/hlkb_keyboard_num_0" />
+
+            <Button
+                android:id="@+id/hlkb_keyboard_num_enter_button"
+                style="@style/hlkb_QwKeyboardButtonStyle"
+                android:layout_span="2"
+                android:background="@drawable/hlkb_keyboard_but_b"
+                android:text="@string/hlkb_keybord_num_enter" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>

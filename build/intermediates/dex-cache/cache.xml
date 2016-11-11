@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/lxy/Desktop/hs/app/libs/gson-2.2.4.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="973e832af433b44c3ed11c426f2f390b29f3f3f8">
+        <dex dex="/Users/lxy/Desktop/hs/app/build/intermediates/pre-dexed/debug/gson-2.2.4-28f84f9378e5b374cbb26af5d5033eab5e08a283.jar" />
+    </item>
+    <item
+        jar="/Users/lxy/Desktop/hs/app/libs/libH5SDK-Common-1.0.4.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="dd48a755d0218d78dbb4b53bea4a67fbd649ddf6">
+        <dex dex="/Users/lxy/Desktop/hs/app/build/intermediates/pre-dexed/debug/libH5SDK-Common-1.0.4.1-1d394851e9bc1fd090f26f284165143f4c7e2972.jar" />
+    </item>
+    <item
+        jar="/Users/lxy/Desktop/hs/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="e5f32fa48a3eb2de0c987025c11b6e3864b634d9">
+        <dex dex="/Users/lxy/Desktop/hs/app/build/intermediates/pre-dexed/debug/classes-08892332b5f710b4dfce34c81bd2978b5ad75b21.jar" />
+    </item>
+    <item
+        jar="/Users/lxy/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.2.0/support-annotations-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c5bf571bb10462bd90e5419ade67793f71acbc87">
+        <dex dex="/Users/lxy/Desktop/hs/app/build/intermediates/pre-dexed/debug/support-annotations-23.2.0-b74d6e3fe01bce2505749e0f7cdbe1e8f89908ab.jar" />
+    </item>
+    <item
+        jar="/Users/lxy/Desktop/hs/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8c108c22c99e794eff255bb34d2a461200c4cbb0">
+        <dex dex="/Users/lxy/Desktop/hs/app/build/intermediates/pre-dexed/debug/classes-a314efe1379c765944f0fabc5c3cc8d58f83d498.jar" />
+    </item>
+    <item
+        jar="/Users/lxy/Desktop/hs/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.2.0/jars/libs/internal_impl-23.2.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e239441500605809818997dd63b62a947195f8c">
+        <dex dex="/Users/lxy/Desktop/hs/app/build/intermediates/pre-dexed/debug/internal_impl-23.2.0-2130efcf13346e5f3202d7cd2b7a31da13f026cc.jar" />
+    </item>
+    <item
+        jar="/Users/lxy/Desktop/hs/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6e3578f92f7462d1a935a1d36173e3bdd1234976">
+        <dex dex="/Users/lxy/Desktop/hs/app/build/intermediates/pre-dexed/debug/classes-c43eddeeafdd6c7eefab07d81c0fb58bace0f5cd.jar" />
+    </item>
+    <item
+        jar="/Users/lxy/Desktop/hs/app/libs/libH5SDK-J2SE-1.0.4.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="c5e4eb0ab432da5f95b0c5c8ccfcb0704b30cedf">
+        <dex dex="/Users/lxy/Desktop/hs/app/build/intermediates/pre-dexed/debug/libH5SDK-J2SE-1.0.4.1-8b50c6f65a58670c67b67d667ef904f5fd5a3efb.jar" />
+    </item>
+    <item
+        jar="/Users/lxy/Desktop/hs/app/build/intermediates/exploded-aar/quotewidget/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="05ce0fccda1fa2146be007ed8e876a1c532ebec0">
+        <dex dex="/Users/lxy/Desktop/hs/app/build/intermediates/pre-dexed/debug/classes-19392c1b10e69c96af8af71c4d2a13123b504a54.jar" />
+    </item>
+    <item
+        jar="/Users/lxy/Desktop/hs/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/23.2.0/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="292a9fa091757208efa65e77eef63088247e51f3">
+        <dex dex="/Users/lxy/Desktop/hs/app/build/intermediates/pre-dexed/debug/classes-8e34fa03d7d91a3b0781418a8e82ba12b8fc54a5.jar" />
+    </item>
+
+</items>

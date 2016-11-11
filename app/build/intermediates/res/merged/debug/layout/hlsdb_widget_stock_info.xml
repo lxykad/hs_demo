@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ListView
+        android:id="@+id/hlsdb_refresh_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_weight="1"
+        android:cacheColorHint="#ffffff"
+        android:divider="@drawable/hlsdb_common_list_divider"
+        android:drawSelectorOnTop="false"
+        android:listSelector="@drawable/hlsdb_common_list_selector_background"
+        android:layout_marginLeft="10dp"
+        android:paddingBottom="2dp"
+        android:paddingTop="2dp"
+        android:scrollbars="none" />
+
+    <View
+        android:id="@+id/hlsdb_CommonLoadingMoreUpLine"
+        android:layout_width="fill_parent"
+        android:background="@drawable/hlsdb_common_list_divider"
+        android:layout_marginLeft="10dp"
+        android:visibility="gone"
+        android:layout_height="1dp"/>
+
+    <TextView
+        android:id="@+id/hlsdb_CommonLoadingMoreTV"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginTop="8dp"
+        android:gravity="center"
+        android:text="@string/hlsdb_CommonLoadingMoreDataLable"
+        android:visibility="gone" />
+
+    <com.hundsun.quotewidget.widget.QiiStockInfoMeansWidget
+        android:id="@+id/hlsdb_StockMeansView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+    </com.hundsun.quotewidget.widget.QiiStockInfoMeansWidget>
+
+    <com.hundsun.quotewidget.widget.QiiStockInfoFinalsWidget
+        android:id="@+id/hlsdb_StockFinalView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+    </com.hundsun.quotewidget.widget.QiiStockInfoFinalsWidget>
+
+</LinearLayout><!-- From: file:/Users/lxy/Desktop/hs/app/build/intermediates/exploded-aar/quotewidget/res/layout/hlsdb_widget_stock_info.xml -->

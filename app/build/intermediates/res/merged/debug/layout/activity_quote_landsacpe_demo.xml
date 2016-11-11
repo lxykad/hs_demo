@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- <com.hundsun.qii.widget.QiiUSStockInfoLandscapeWidget
+        android:id="@+id/realtime_widget"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+    </com.hundsun.qii.widget.QiiUSStockInfoLandscapeWidget> -->
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" >
+
+        <com.hundsun.gmudemo.ButtonGroup
+            android:id="@+id/qii_quote_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="@dimen/navigate_bar_height"
+            android:gravity="center"
+            android:orientation="horizontal" >
+
+            <!-- <TextView
+                android:id="@+id/qii_bar_level2_button"
+                style="@style/qii_quote_bar_nomal_value"
+                android:gravity="center"
+                android:paddingLeft="2dip"
+                android:paddingRight="2dip"
+                android:text="@string/qii_level2" /> -->
+            
+            <TextView
+                android:id="@+id/qii_bar_trend_button"
+                style="@style/qii_quote_bar_nomal_value"
+                android:gravity="center"
+                android:text="@string/qii_trend" />
+            
+            <TextView
+                android:id="@+id/qii_bar_kline_period_day_button"
+                style="@style/qii_quote_bar_nomal_value"
+                android:gravity="center"
+                android:text="@string/qii_kline_period_day" />
+
+            <TextView
+                android:id="@+id/qii_bar_kline_period_week_button"
+                style="@style/qii_quote_bar_nomal_value"
+                android:gravity="center"
+                android:text="@string/qii_kline_period_week" />
+
+            <TextView
+                android:id="@+id/qii_bar_kline_period_month_button"
+                style="@style/qii_quote_bar_nomal_value"
+                android:gravity="center"
+                android:text="@string/qii_kline_period_month" />
+
+            <TextView
+                android:id="@+id/qii_bar_kline_period_minute_5_button"
+                style="@style/qii_quote_bar_nomal_value"
+                android:gravity="center"
+                android:text="@string/qii_kline_period_minute_5" />
+
+            <TextView
+                android:id="@+id/qii_bar_kline_period_minute_15_button"
+                style="@style/qii_quote_bar_nomal_value"
+                android:gravity="center"
+                android:text="@string/qii_kline_period_minute_15" />
+
+            <TextView
+                android:id="@+id/qii_bar_kline_period_minute_30_button"
+                style="@style/qii_quote_bar_nomal_value"
+                android:gravity="center"
+                android:text="@string/qii_kline_period_minute_30" />
+
+            <TextView
+                android:id="@+id/qii_bar_kline_period_minute_60_button"
+                style="@style/qii_quote_bar_nomal_value"
+                android:gravity="center"
+                android:text="@string/qii_kline_period_minute_60" />
+        </com.hundsun.gmudemo.ButtonGroup>
+
+        <com.hundsun.quotewidget.widget.QiiFocusInfoWidget
+            android:id="@+id/qii_quote_focus_info"
+            android:layout_width="fill_parent"
+            android:layout_height="32dip"
+            android:background="@drawable/qii_tabbar_button_normal_bg"
+            android:gravity="left|center_vertical"
+            android:layout_gravity="center"
+            android:visibility="gone"
+            android:orientation="horizontal" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/quote_widget"
+        android:layout_width="fill_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1"
+        android:padding="3dip" />
+
+</LinearLayout><!-- From: file:/Users/lxy/Desktop/hs/app/src/main/res/layout/activity_quote_landsacpe_demo.xml -->

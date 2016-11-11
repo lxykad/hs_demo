@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="33dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/hlqb_widget_qii_quote_future_item_bg"/>
+    <TextView
+        android:id="@+id/hlqb_future_list_item_display_tv"
+        android:layout_width="79dp"
+        android:layout_height="32dp"
+        android:gravity="center"
+        android:singleLine="true"
+        android:textColor="@color/black"
+        android:layout_centerInParent="true"
+        android:textSize="@dimen/font_size_13"
+        android:text="@string/hlqb_quote_financial_future_stock_index_name" />
+
+</RelativeLayout>

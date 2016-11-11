@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:baselineAligned="false"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+    <ViewStub
+        android:id="@+id/Level2ProcessViewStub"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout="@layout/hlsdlg_qii_widget_level2_process2" />
+
+    <ViewStub
+        android:id="@+id/Level2DataViewStub"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout="@layout/hlsdlg_qii_widget_level2_data" />
+
+    <ViewStub
+        android:id="@+id/Level2LandspaceDataViewStub"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout="@layout/hlsdlg_qii_widget_level2_landspace_data" />
+
+</LinearLayout>

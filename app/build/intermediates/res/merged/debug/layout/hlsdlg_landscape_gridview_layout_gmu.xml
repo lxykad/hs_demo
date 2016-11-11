@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout 
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <com.hundsun.quotewidget.widget.QiiAutoTextSizeView
+        android:id="@+id/key"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/font_size_13"
+        android:gravity="left|center_vertical"
+        android:singleLine="true"
+        android:textColor="@color/hlsdlg_QW_quote_label"/>
+    
+    <com.hundsun.quotewidget.widget.QiiAutoTextSizeView
+        android:id="@+id/value"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:paddingRight="5dp"
+        android:textSize="@dimen/font_size_13"
+        android:gravity="left|center_vertical"
+        android:singleLine="true"
+        android:textColor="@color/hlsdlg_QW_quote_nomal_text_color"/>
+    
+</LinearLayout><!-- From: file:/Users/lxy/Desktop/hs/app/build/intermediates/exploded-aar/quotewidget/res/layout/hlsdlg_landscape_gridview_layout_gmu.xml -->

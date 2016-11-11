@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <LinearLayout
+        android:id="@+id/titlelayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerInParent="true"
+        android:background="@android:color/transparent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:textColor="@color/hlsdlg_title_button_color"
+            android:maxWidth="180dp"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:textSize="@dimen/font_size_18"/>
+
+        <LinearLayout
+            android:id="@+id/second_title_container"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/second_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:singleLine="true"
+                android:textColor="@color/hlsdlg_title_button_color"
+                android:textSize="@dimen/font_size_12"
+                android:visibility="gone"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/left_btn_c"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical|left"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/back_button"
+            style="@style/hlsdlg_qii_head_title_button_style"
+            android:background="@drawable/hlsdlg_selector_title_back_btn"/>
+
+        <Button
+            android:id="@+id/refresh_button"
+            style="@style/hlsdlg_qii_head_title_button_style"
+            android:layout_marginLeft="6dp"
+            android:background="@drawable/hlsdlg_selector_title_refresh_btn"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/right_btn_c"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical|right"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/share_button"
+            android:gravity="center"
+            style="@style/hlsdlg_qii_head_title_button_style"
+            android:layout_marginRight="6dp"
+            android:background="@drawable/hlsdlg_selector_title_share_btn"/>
+
+        <Button
+            android:id="@+id/search_button"
+            style="@style/hlsdlg_qii_head_title_button_style"
+            android:background="@drawable/hlsdlg_selector_title_search_btn"/>
+
+        <!-- 右侧按钮事件拓展 -->
+
+        <Button
+            android:id="@+id/more_button"
+            style="@style/hlsdlg_qii_head_title_button_style"
+            android:text="更多"/>
+    </LinearLayout>
+
+</merge><!-- From: file:/Users/lxy/Desktop/hs/app/build/intermediates/exploded-aar/quotewidget/res/layout/hlsdlg_widget_page_header.xml -->

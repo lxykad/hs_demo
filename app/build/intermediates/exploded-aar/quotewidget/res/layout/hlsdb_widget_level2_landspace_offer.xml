@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="130dip"
+    android:layout_height="fill_parent"  >
+
+    <TableRow
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <TextView
+            style="@style/hlsdb_level2_label_Text_Style"
+            android:text="@string/hlsdb_offer2_label" />
+
+        <TextView
+            android:id="@+id/hlsdb_offer2_price"
+            style="@style/hlsdb_level2_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/hlsdb_offer2_amount"
+            style="@style/hlsdb_level2_volume_Text_Style" />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <TextView
+            style="@style/hlsdb_level2_label_Text_Style"
+            android:text="@string/hlsdb_offer3_label" />
+
+        <TextView
+            android:id="@+id/hlsdb_offer3_price"
+            style="@style/hlsdb_level2_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/hlsdb_offer3_amount"
+            style="@style/hlsdb_level2_volume_Text_Style" />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <TextView
+            style="@style/hlsdb_level2_label_Text_Style"
+            android:text="@string/hlsdb_offer4_label" />
+
+        <TextView
+            android:id="@+id/hlsdb_offer4_price"
+            style="@style/hlsdb_level2_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/hlsdb_offer4_amount"
+            style="@style/hlsdb_level2_volume_Text_Style" />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <TextView
+            style="@style/hlsdb_level2_label_Text_Style"
+            android:text="@string/hlsdb_offer5_label" />
+
+        <TextView
+            android:id="@+id/hlsdb_offer5_price"
+            style="@style/hlsdb_level2_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/hlsdb_offer5_amount"
+            style="@style/hlsdb_level2_volume_Text_Style" />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <TextView
+            style="@style/hlsdb_level2_label_Text_Style"
+            android:text="@string/hlsdb_offer6_label" />
+
+        <TextView
+            android:id="@+id/hlsdb_offer6_price"
+            style="@style/hlsdb_level2_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/hlsdb_offer6_amount"
+            style="@style/hlsdb_level2_volume_Text_Style" />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <TextView
+            style="@style/hlsdb_level2_label_Text_Style"
+            android:text="@string/hlsdb_offer7_label" />
+
+        <TextView
+            android:id="@+id/hlsdb_offer7_price"
+            style="@style/hlsdb_level2_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/hlsdb_offer7_amount"
+            style="@style/hlsdb_level2_volume_Text_Style" />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <TextView
+            style="@style/hlsdb_level2_label_Text_Style"
+            android:text="@string/hlsdb_offer8_label" />
+
+        <TextView
+            android:id="@+id/hlsdb_offer8_price"
+            style="@style/hlsdb_level2_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/hlsdb_offer8_amount"
+            style="@style/hlsdb_level2_volume_Text_Style" />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="fill_parent"
+        android:layout_weight="1">
+
+        <TextView
+            style="@style/hlsdb_level2_label_Text_Style"
+            android:text="@string/hlsdb_offer9_label" />
+
+        <TextView
+            android:id="@+id/hlsdb_offer9_price"
+            style="@style/hlsdb_level2_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/hlsdb_offer9_amount"
+            style="@style/hlsdb_level2_volume_Text_Style" />
+    </TableRow>
+
+    <TableRow
+        android:layout_height="fill_parent"
+        android:layout_weight="1" >
+
+        <TextView
+            style="@style/hlsdb_level2_label_Text_Style"
+            android:text="@string/hlsdb_offer10_label" />
+
+        <TextView
+            android:id="@+id/hlsdb_offer10_price"
+            style="@style/hlsdb_level2_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/hlsdb_offer10_amount"
+            style="@style/hlsdb_level2_volume_Text_Style" />
+    </TableRow>
+
+</TableLayout>

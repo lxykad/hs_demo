@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="quote_bar_label">#ff7d7d7d</color>
+    <color name="app_accordion_background">#ffeaeaea</color>
+    <color name="stock_name_color">#ff696969</color>
+    <color name="stock_code_color">#ff8f8f8f</color>
+    <color name="stock_amount_color">#ff828282</color>
+    <color name="stock_price_color">#ffd5d5d5</color>
+    <color name="red">#ffff0000</color>
+    <color name="quote_trend_background_color">#fff8f8f8</color>
+    <color name="app_navi_bar_font_color">#ff494949</color>
+    <color name="app_navi_bar_font_color_selected">#ffe50b10</color>
+    <color name="common_list_transparent">#00000000</color>
+    <color name="common_list_gradient_end">#e4e4e4</color>
+    <color name="common_list_gradient_start">#e4e4e4</color>
+    <color name="common_list_stroke">#e4e4e4</color>
+</resources>

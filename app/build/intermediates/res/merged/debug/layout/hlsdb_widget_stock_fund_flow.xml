@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="13dp"
+        android:id="@+id/hlsdb_quote_detail_div2"
+        android:background="#F5F5F5"/>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/hlsdb_navigate_bar_height"
+        android:orientation="horizontal"
+        android:layout_marginLeft="18dp"
+        android:background="@color/hlsdb_transparent">
+        <ImageView
+            android:layout_width="5dp"
+            android:layout_height="15dp"
+            android:layout_gravity="left|center_vertical"
+            android:src="@drawable/hlsdb_accordion_type1logo"/>
+        <TextView
+            android:id="@+id/hlsdb_quote_fund_flow_bar"
+            android:layout_width="fill_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="left|center_vertical"
+                android:paddingLeft="8dp"
+            android:gravity="center"
+            android:orientation="horizontal"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:src="@color/gray"/>
+
+    <com.hundsun.quotewidget.widget.QiiStockMoneyFlowWidget
+        android:id="@+id/hlsdb_quote_fund_flow_widget"
+        android:layout_width="fill_parent"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="15dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout><!-- From: file:/Users/lxy/Desktop/hs/app/build/intermediates/exploded-aar/quotewidget/res/layout/hlsdb_widget_stock_fund_flow.xml -->

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">QuoteWidgetDemo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_quote_demo">QuoteDemoActivity</string>
+    <string name="qii_quote_high">最        高</string>
+    <string name="qii_quote_low">最        低</string>
+    <string name="qii_quote_open">今    开</string>
+    <string name="qii_quote_close">收盘</string>
+    <string name="qii_quote_preclose">昨    收</string>
+    <string name="qii_quote_last">现价</string>
+    <string name="qii_quote_market_value">总市值</string>
+    <string name="qii_quote_52_high">52周高</string>
+    <string name="qii_quote_52_low">52周低</string>
+    <string name="qii_quote_pe">市盈率</string>
+    <string name="qii_quote_eps">每股收益</string>
+    <string name="qii_quote_volume">成交量</string>
+    <string name="qii_quote_money">金        额</string>
+    <string name="qii_quote_in_volume">内         盘</string>
+    <string name="qii_quote_out_volume">外        盘</string>
+    <string name="qii_quote_turnover_rate">换        手</string>
+    <string name="qii_quote_amplitude">振    幅</string>
+    <string name="qii_quote_circulation_value">流通值</string>
+    <string name="qii_quote_rise_count">涨家数</string>
+    <string name="qii_quote_fall_count">跌家数</string>
+    <string name="qii_quote_flat_count">平家数</string>
+    <string name="bid1_label">买一</string>
+    <string name="bid2_label">买二</string>
+    <string name="bid3_label">买三</string>
+    <string name="bid4_label">买四</string>
+    <string name="bid5_label">买五</string>
+    <string name="bid6_label">买六</string>
+    <string name="bid7_label">买七</string>
+    <string name="bid8_label">买八</string>
+    <string name="bid9_label">买九</string>
+    <string name="bid10_label">买十</string>
+    <string name="offer1_label">卖一</string>
+    <string name="offer2_label">卖二</string>
+    <string name="offer3_label">卖三</string>
+    <string name="offer4_label">卖四</string>
+    <string name="offer5_label">卖五</string>
+    <string name="offer6_label">卖六</string>
+    <string name="offer7_label">卖七</string>
+    <string name="offer8_label">卖八</string>
+    <string name="offer9_label">卖九</string>
+    <string name="offer10_label">卖十</string>
+    <string name="title_activity_quote_landsacpe_demo">QuoteLandsacpeDemoActivity</string>
+
+    <string name="qii_trend">分时</string>
+    <string name="qii_kline_period_day">日线</string>
+    <string name="qii_kline_period_week">周线</string>
+    <string name="qii_kline_period_month">月线</string>
+    <string name="qii_kline_period_minute_1">1分</string>
+    <string name="qii_kline_period_minute_5">5分</string>
+    <string name="qii_kline_period_minute_15">15分</string>
+    <string name="qii_kline_period_minute_30">30分</string>
+    <string name="qii_kline_period_minute_60">60分</string>
+</resources>

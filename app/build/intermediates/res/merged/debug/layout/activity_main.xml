@@ -1,0 +1,154 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.hundsun.quotewidget.demo.MainActivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D2B48C" >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="254dp"
+        android:id="@+id/edit_group"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="20dp"
+        android:orientation="vertical">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:textSize="15dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:hint="输入账号名"
+            android:id="@+id/account_edt" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:textSize="15dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:hint="输入密码"
+            android:id="@+id/pwd_edt" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:textSize="15dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:hint="输入服务器地址"
+            android:id="@+id/host_edt" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:textSize="15dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:hint="输入端口地址"
+            android:id="@+id/port_edt" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:textSize="15dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:hint="输入appkey"
+            android:id="@+id/appkey_edt" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:textSize="15dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:hint="输入appsecret"
+            android:id="@+id/appsecert_edt" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:textSize="15dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:hint="输入token"
+            android:id="@+id/token_edt" />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:textSize="15dp"
+            android:gravity="center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:hint="输入authid"
+            android:id="@+id/authid_edt" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:id="@+id/button_group"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp">
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:id="@+id/comfire_btn"
+                android:gravity="center"
+                android:layout_gravity="left"
+                android:text="用用户名登录"
+                android:textSize="18dp"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#545454" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="45dp"
+                android:id="@+id/comfire_btn2"
+                android:gravity="center"
+                android:layout_gravity="right"
+                android:text="用authid登录"
+                android:textSize="18dp"
+                android:layout_weight="1"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:textColor="#545454" />
+        </LinearLayout>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:background="#000000"
+            android:textColor="#ffffff"
+            android:textSize="13dp"
+            android:id="@+id/logcat_edt"
+            android:gravity="top|left"
+            android:paddingLeft="3dp"
+            android:paddingRight="3dp"
+            android:editable="false"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp" />
+
+        <ListView
+            android:id="@id/android:list"
+            android:layout_width="fill_parent"
+            android:layout_height="106dp"
+            android:cacheColorHint="#ffffff"
+            android:drawSelectorOnTop="false"
+            android:layout_marginBottom="2dp"
+            android:layout_marginTop="20dp"
+            android:scrollbars="none"
+            android:background="#FFB6C1" />
+    </LinearLayout>
+</ScrollView>
+<!-- From: file:/Users/lxy/Desktop/hs/app/src/main/res/layout/activity_main.xml -->

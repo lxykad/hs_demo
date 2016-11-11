@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/hlsdb_quotre_bid_sell_table"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <TableRow
+        android:id="@+id/hlsdb_quotre_offer5_tr"
+        android:layout_weight="1"
+        android:clickable="true" >
+
+        <TextView
+            style="@style/hlsdb_bidoffer_label_Text_Style"
+            android:text="@string/hlsdb_offer5_label" />
+
+        <TextView
+            android:id="@+id/hlsdb_quotre_offer_price5"
+            style="@style/hlsdb_bidoffer_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/hlsdb_quotre_offer_volume5"
+            style="@style/hlsdb_bidoffer_volume_Text_Style" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/hlsdb_quotre_offer4_tr"
+        android:layout_weight="1"
+        android:clickable="true" >
+
+        <TextView
+            style="@style/hlsdb_bidoffer_label_Text_Style"
+            android:text="@string/hlsdb_offer4_label" />
+
+        <TextView
+            android:id="@+id/hlsdb_quotre_offer_price4"
+            style="@style/hlsdb_bidoffer_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/hlsdb_quotre_offer_volume4"
+            style="@style/hlsdb_bidoffer_volume_Text_Style" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/hlsdb_quotre_offer3_tr"
+        android:layout_weight="1"
+        android:clickable="true" >
+
+        <TextView
+            style="@style/hlsdb_bidoffer_label_Text_Style"
+            android:text="@string/hlsdb_offer3_label" />
+
+        <TextView
+            android:id="@+id/hlsdb_quotre_offer_price3"
+            style="@style/hlsdb_bidoffer_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/hlsdb_quotre_offer_volume3"
+            style="@style/hlsdb_bidoffer_volume_Text_Style" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/hlsdb_quotre_offer2_tr"
+        android:layout_weight="1"
+        android:clickable="true" >
+
+        <TextView
+            style="@style/hlsdb_bidoffer_label_Text_Style"
+            android:text="@string/hlsdb_offer2_label" />
+
+        <TextView
+            android:id="@+id/hlsdb_quotre_offer_price2"
+            style="@style/hlsdb_bidoffer_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/hlsdb_quotre_offer_volume2"
+            style="@style/hlsdb_bidoffer_volume_Text_Style" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/hlsdb_quotre_offer1_tr"
+        android:layout_weight="1"
+        android:clickable="true" >
+
+        <TextView
+            style="@style/hlsdb_bidoffer_label_Text_Style"
+            android:text="@string/hlsdb_offer1_label" />
+
+        <TextView
+            android:id="@+id/hlsdb_quotre_offer_price1"
+            style="@style/hlsdb_bidoffer_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/hlsdb_quotre_offer_volume1"
+            style="@style/hlsdb_bidoffer_volume_Text_Style" />
+    </TableRow>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="1dip"
+        android:background="@drawable/hlsdb_common_splite_line_solid" />
+
+    <TableRow
+        android:id="@+id/hlsdb_quotre_bid1_tr"
+        android:layout_weight="1"
+        android:clickable="true" >
+
+        <TextView
+            style="@style/hlsdb_bidoffer_label_Text_Style"
+            android:text="@string/hlsdb_bid1_label" />
+
+        <TextView
+            android:id="@+id/hlsdb_quotre_bid_price1"
+            style="@style/hlsdb_bidoffer_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/hlsdb_quotre_bid_volume1"
+            style="@style/hlsdb_bidoffer_volume_Text_Style" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/hlsdb_quotre_bid2_tr"
+        android:layout_weight="1"
+        android:clickable="true" >
+
+        <TextView
+            style="@style/hlsdb_bidoffer_label_Text_Style"
+            android:text="@string/hlsdb_bid2_label" />
+
+        <TextView
+            android:id="@+id/hlsdb_quotre_bid_price2"
+            style="@style/hlsdb_bidoffer_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/hlsdb_quotre_bid_volume2"
+            style="@style/hlsdb_bidoffer_volume_Text_Style" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/hlsdb_quotre_bid3_tr"
+        android:layout_weight="1"
+        android:clickable="true" >
+
+        <TextView
+            style="@style/hlsdb_bidoffer_label_Text_Style"
+            android:text="@string/hlsdb_bid3_label" />
+
+        <TextView
+            android:id="@+id/hlsdb_quotre_bid_price3"
+            style="@style/hlsdb_bidoffer_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/hlsdb_quotre_bid_volume3"
+            style="@style/hlsdb_bidoffer_volume_Text_Style" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/hlsdb_quotre_bid4_tr"
+        android:layout_weight="1"
+        android:clickable="true" >
+
+        <TextView
+            style="@style/hlsdb_bidoffer_label_Text_Style"
+            android:text="@string/hlsdb_bid4_label" />
+
+        <TextView
+            android:id="@+id/hlsdb_quotre_bid_price4"
+            style="@style/hlsdb_bidoffer_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/hlsdb_quotre_bid_volume4"
+            style="@style/hlsdb_bidoffer_volume_Text_Style" />
+    </TableRow>
+
+    <TableRow
+        android:id="@+id/hlsdb_quotre_bid5_tr"
+        android:layout_weight="1"
+        android:clickable="true" >
+
+        <TextView
+            style="@style/hlsdb_bidoffer_label_Text_Style"
+            android:text="@string/hlsdb_bid5_label" />
+
+        <TextView
+            android:id="@+id/hlsdb_quotre_bid_price5"
+            style="@style/hlsdb_bidoffer_price_Text_Style" />
+
+        <TextView
+            android:id="@+id/hlsdb_quotre_bid_volume5"
+            style="@style/hlsdb_bidoffer_volume_Text_Style" />
+    </TableRow>
+
+</TableLayout><!-- From: file:/Users/lxy/Desktop/hs/app/build/intermediates/exploded-aar/quotewidget/res/layout/hlsdb_widget_stock_bid_offer.xml -->

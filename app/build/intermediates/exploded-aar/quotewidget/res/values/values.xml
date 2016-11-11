@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#ff000000</color>
+    <color name="gray">#ffdcdcdc</color>
+    <color name="hlkb_keyboard_bg">#ff878A88</color>
+    <color name="hlkb_keyboard_divider_bg">#ffd3d3d3</color>
+    <color name="hlkb_keyboard_pressed_bg">#ffd2d2d2</color>
+    <color name="hlqb_c494949">#494949</color>
+    <color name="hlqb_gmu_business_icon">#999999</color>
+    <color name="hlqb_gmu_market_icon_fu">#a583fd</color>
+    <color name="hlqb_gmu_market_icon_hk">#faac31</color>
+    <color name="hlqb_gmu_market_icon_us">#4d94fe</color>
+    <color name="hlqb_qii_app_accordion_background">#ffeaeaea</color>
+    <color name="hlqb_qii_app_accordion_title_color">#ffe50b10</color>
+    <color name="hlqb_qii_app_navi_bar_font_color_selected">#ffe50b10</color>
+    <color name="hlqb_stock_code_color">#ff8f8f8f</color>
+    <color name="hlqb_stock_name_color">#ff696969</color>
+    <color name="hlqb_stock_price_color">#ffd5d5d5</color>
+    <color name="hlqb_transparent">#00000000</color>
+    <color name="hlsdb_CommonLoadingMoreTxtColor">#a4a4a4</color>
+    <color name="hlsdb_QW_quote_label">#ff8e8e8e</color>
+    <color name="hlsdb_QW_quote_nomal_text_color">#ff494949</color>
+    <color name="hlsdb_action_sheet_item_color">#ff2484ef</color>
+    <color name="hlsdb_app_accordion_background">#eaeaea</color>
+    <color name="hlsdb_app_accordion_title_color">#e50b10</color>
+    <color name="hlsdb_app_navi_bar_font_color">#ff494949</color>
+    <color name="hlsdb_app_navi_bar_font_color_selected">#ffe50b10</color>
+    <color name="hlsdb_button_hit">#ffb6b6b6</color>
+    <color name="hlsdb_c494949">#494949</color>
+    <color name="hlsdb_c8e8e8e">#8e8e8e</color>
+    <color name="hlsdb_ceaeaea">#eaeaea</color>
+    <color name="hlsdb_common_hsv_bg">#ebebeb</color>
+    <color name="hlsdb_common_hsv_splite_line_bg">#9b9b9b</color>
+    <color name="hlsdb_common_hsv_tv_default">#666666</color>
+    <color name="hlsdb_gmu_market_icon_fu">#a583fd</color>
+    <color name="hlsdb_gmu_market_icon_hk">#faac31</color>
+    <color name="hlsdb_gmu_market_icon_us">#4d94fe</color>
+    <color name="hlsdb_info_list_date">#ffa2a2a2</color>
+    <color name="hlsdb_list_cache_color_hint">#00000000</color>
+    <color name="hlsdb_listview_shape_gradient_end_color">#e4e4e4</color>
+    <color name="hlsdb_listview_shape_gradient_start_color">#e4e4e4</color>
+    <color name="hlsdb_listview_shape_stroke_color">#e4e4e4</color>
+    <color name="hlsdb_main_bg">#ffffff</color>
+    <color name="hlsdb_quote_bar_label">#ff7d7d7d</color>
+    <color name="hlsdb_scan_bar_code_show_content_font_color">#a4a4a4</color>
+    <color name="hlsdb_solid_dark_gray">#ffa9a9a9</color>
+    <color name="hlsdb_stock_amount_color">#ff828282</color>
+    <color name="hlsdb_stock_code_color">#ff8f8f8f</color>
+    <color name="hlsdb_stock_name_color">#ff696969</color>
+    <color name="hlsdb_stock_price_color_dark">#000333</color>
+    <color name="hlsdb_transparent">#00000000</color>
+    <color name="hlsdb_white_c">#ffffffff</color>
+    <color name="hlsdb_window_background">#ffffffff</color>
+    <color name="hlsdlg_QW_quote_label">#ff8e8e8e</color>
+    <color name="hlsdlg_QW_quote_nomal_text_color">#ff494949</color>
+    <color name="hlsdlg_qii_app_navi_bar_font_color">#ff494949</color>
+    <color name="hlsdlg_qii_button_hit">#ffb6b6b6</color>
+    <color name="hlsdlg_qii_listview_shape_gradient_end_color">#e4e4e4</color>
+    <color name="hlsdlg_qii_listview_shape_gradient_start_color">#e4e4e4</color>
+    <color name="hlsdlg_qii_listview_shape_stroke_color">#e4e4e4</color>
+    <color name="hlsdlg_qii_quote_bar_label">#ff7d7d7d</color>
+    <color name="hlsdlg_qii_quote_trend_background_color">#fff8f8f8</color>
+    <color name="hlsdlg_qii_scan_bar_code_show_content_font_color">#a4a4a4</color>
+    <color name="hlsdlg_stock_amount_color">#ff828282</color>
+    <color name="hlsdlg_stock_code_color">#ff8f8f8f</color>
+    <color name="hlsdlg_stock_name_color">#ff696969</color>
+    <color name="hlsdlg_stock_price_color_dark">#000333</color>
+    <color name="hlsdlg_title_button_color">#ffffffff</color>
+    <color name="hlsdlg_window_background">#ffffffff</color>
+    <color name="red">#ffe50d22</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#fff8f8f8</color>
+    <color name="white_c">#ffffffff</color>
+    <dimen name="font_size_10">10dp</dimen>
+    <dimen name="font_size_11">11dp</dimen>
+    <dimen name="font_size_12">12dp</dimen>
+    <dimen name="font_size_13">13dp</dimen>
+    <dimen name="font_size_14">14dp</dimen>
+    <dimen name="font_size_15">15dp</dimen>
+    <dimen name="font_size_16">16dp</dimen>
+    <dimen name="font_size_17">17dp</dimen>
+    <dimen name="font_size_18">18dp</dimen>
+    <dimen name="font_size_19">19dp</dimen>
+    <dimen name="font_size_20">20dp</dimen>
+    <dimen name="font_size_22">22dp</dimen>
+    <dimen name="font_size_24">24dp</dimen>
+    <dimen name="font_size_28">28dp</dimen>
+    <dimen name="font_size_32">32dp</dimen>
+    <dimen name="font_size_36">36dp</dimen>
+    <dimen name="font_size_48">48dp</dimen>
+    <dimen name="font_size_8">8dp</dimen>
+    <dimen name="hlkb_keyboard_eng_btn_xpadding">1dip</dimen>
+    <dimen name="hlkb_keyboard_num_btn_xpadding">1dip</dimen>
+    <dimen name="hlkb_keyboard_num_btn_ypadding">6dip</dimen>
+    <dimen name="hlkb_keyboard_padding_screen">3dip</dimen>
+    <dimen name="hlqb_table_item_height">44dip</dimen>
+    <dimen name="hlsdb_activity_horizontal_margin">16dp</dimen>
+    <dimen name="hlsdb_activity_vertical_margin">16dp</dimen>
+    <dimen name="hlsdb_gridView_oneLine_Height">26dip</dimen>
+    <dimen name="hlsdb_gridview_column_width">60dp</dimen>
+    <dimen name="hlsdb_gridview_horizontal_vertical_spacing">8dip</dimen>
+    <dimen name="hlsdb_gridview_padding">10dip</dimen>
+    <dimen name="hlsdb_keyboard_num_btn_ypadding">2dip</dimen>
+    <dimen name="hlsdb_kline_spacetozhibiao_height">18dp</dimen>
+    <dimen name="hlsdb_navigate_bar_height">30dp</dimen>
+    <dimen name="hlsdb_navigate_bar_selected_line_height">2dip</dimen>
+    <dimen name="hlsdb_scroll_table_item_height">22dip</dimen>
+    <dimen name="hlsdb_table_item_height">44dip</dimen>
+    <dimen name="hlsdb_trend_line_width">1dip</dimen>
+    <item name="hlsdb_Key_Widget_ConvertView_Tag" type="id"/>
+    <item name="hlsdb_Key_Widget_NavigateView_ImageView_Id" type="id"/>
+    <item name="hlsdb_Key_Widget_NavigateView_TextView_Id" type="id"/>
+    <item name="hlsdb_Key_Widget_ScrolListView_Tag" type="id"/>
+    <item name="hlsdb_StockDetailsBottmMenu_AddMyStock" type="id"/>
+    <item name="hlsdb_StockDetailsBottmMenu_Comment" type="id"/>
+    <item name="hlsdb_StockDetailsBottmMenu_Custom" type="id"/>
+    <item name="hlsdb_bar_bid_offer_button" type="id"/>
+    <item name="hlsdb_bar_deal_detail_button" type="id"/>
+    <item name="hlsdb_bar_fund_net_worth_button" type="id"/>
+    <item name="hlsdb_bar_kline_period_minute_15_button" type="id"/>
+    <item name="hlsdb_bar_kline_period_minute_30_button" type="id"/>
+    <item name="hlsdb_bar_kline_period_minute_5_button" type="id"/>
+    <item name="hlsdb_bar_kline_period_minute_60_button" type="id"/>
+    <item name="hlsdb_bar_kline_period_month_button" type="id"/>
+    <item name="hlsdb_bar_level2_button" type="id"/>
+    <item name="hlsdb_bar_level_description" type="id"/>
+    <item name="hlsdb_bar_upgrade_strategy" type="id"/>
+    <item name="hlsdb_bar_user_grade_content" type="id"/>
+    <item name="hlsdb_btn_camera" type="id"/>
+    <item name="hlsdb_btn_photos" type="id"/>
+    <item name="hlsdb_btn_share_cloud" type="id"/>
+    <item name="hlsdb_btn_share_weibo" type="id"/>
+    <item name="hlsdb_btn_share_weixin" type="id"/>
+    <item name="hlsdb_btn_share_weixin_friend" type="id"/>
+    <item name="hlsdb_expandable" type="id"/>
+    <item name="hlsdb_expandable_toggle_button" type="id"/>
+    <item name="hlsdb_future_related_index" type="id"/>
+    <item name="hlsdb_hl_fragment_content" type="id"/>
+    <item name="hlsdb_hs_badge_views" type="id"/>
+    <item name="hlsdb_mystock_key1" type="id"/>
+    <item name="hlsdb_mystock_key2" type="id"/>
+    <item name="hlsdb_quote_detail_share_btn" type="id"/>
+    <item name="hlsdb_refresh_loading_id" type="id"/>
+    <item name="hlsdb_stock_details_key" type="id"/>
+    <item name="hlsdb_stock_recommend_id_key" type="id"/>
+    <item name="hlsdb_stock_recommend_key" type="id"/>
+    <string name="app_name">stockdetailbase</string>
+    <string name="hlkb_keyboard_delete_bigspace">删   除</string>
+    <string name="hlkb_keyboard_eng_123">123</string>
+    <string name="hlkb_keyboard_num_0">0</string>
+    <string name="hlkb_keyboard_num_000">000</string>
+    <string name="hlkb_keyboard_num_002">002</string>
+    <string name="hlkb_keyboard_num_1">1</string>
+    <string name="hlkb_keyboard_num_2">2</string>
+    <string name="hlkb_keyboard_num_3">3</string>
+    <string name="hlkb_keyboard_num_300">300</string>
+    <string name="hlkb_keyboard_num_4">4</string>
+    <string name="hlkb_keyboard_num_5">5</string>
+    <string name="hlkb_keyboard_num_6">6</string>
+    <string name="hlkb_keyboard_num_600">600</string>
+    <string name="hlkb_keyboard_num_601">601</string>
+    <string name="hlkb_keyboard_num_7">7</string>
+    <string name="hlkb_keyboard_num_8">8</string>
+    <string name="hlkb_keyboard_num_9">9</string>
+    <string name="hlkb_keyboard_num_abc">abc</string>
+    <string name="hlkb_keyboard_num_clear">清空</string>
+    <string name="hlkb_keyboard_num_hide">隐藏</string>
+    <string name="hlkb_keybord_delete">删除</string>
+    <string name="hlkb_keybord_eng_enter">Enter</string>
+    <string name="hlkb_keybord_num_enter">确认</string>
+    <string name="hlqb_quote_financial_future_stock_index_name">股指期货</string>
+    <string name="hlsdb_CommonLoadingMoreDataLable">加载更多</string>
+    <string name="hlsdb_CommonLoadingMoreLable">加载更多....</string>
+    <string name="hlsdb_CommonLoadingNoMoreDataLable">无更多数据....</string>
+    <string name="hlsdb_CommonLoadingRequestNoDataLable">无数据....</string>
+    <string name="hlsdb_CommonLondingMoreRequestDataLable">正在请求数据.....</string>
+    <string name="hlsdb_Level2_process_btn">立即续费</string>
+    <string name="hlsdb_Level2_process_info">亲爱的XXXXX（用户名） \n 您的Level2权限已于2011-11-11到期</string>
+    <string name="hlsdb_assets_liability_lable">资产负债表</string>
+    <string name="hlsdb_basic_eps_lable">每股收益</string>
+    <string name="hlsdb_bid10_label">买十</string>
+    <string name="hlsdb_bid1_label">买一</string>
+    <string name="hlsdb_bid2_label">买二</string>
+    <string name="hlsdb_bid3_label">买三</string>
+    <string name="hlsdb_bid4_label">买四</string>
+    <string name="hlsdb_bid5_label">买五</string>
+    <string name="hlsdb_bid6_label">买六</string>
+    <string name="hlsdb_bid7_label">买七</string>
+    <string name="hlsdb_bid8_label">买八</string>
+    <string name="hlsdb_bid9_label">买九</string>
+    <string name="hlsdb_bsi_my_double">--</string>
+    <string name="hlsdb_business_income_Lable">营业收入</string>
+    <string name="hlsdb_capital_stock_Lable">股本</string>
+    <string name="hlsdb_capital_stock_circulation_a_Lable">流通A股</string>
+    <string name="hlsdb_capital_stock_circulation_a_radio_Lable">流通A股占比</string>
+    <string name="hlsdb_capital_stock_total_Lable">总股本</string>
+    <string name="hlsdb_company_industry_Lable">所属行业</string>
+    <string name="hlsdb_company_intruduce_Lable">公司简介</string>
+    <string name="hlsdb_company_name_Lable">公司名称</string>
+    <string name="hlsdb_company_profile_Lable">公司概况</string>
+    <string name="hlsdb_company_work_address_Lable">注册地址</string>
+    <string name="hlsdb_eps_lable">每股营业利润</string>
+    <string name="hlsdb_hold_sum_lable">持股数量</string>
+    <string name="hlsdb_home_quote">行情</string>
+    <string name="hlsdb_is_insti_lable">是否为机构</string>
+    <string name="hlsdb_level2_buy_already"><u>我已购买</u></string>
+    <string name="hlsdb_level2_tel_number"><u>客服:0571-26695555</u></string>
+    <string name="hlsdb_middle_report_2014_Lable"/>
+    <string name="hlsdb_mt_qii_news">资讯</string>
+    <string name="hlsdb_mt_qii_notice">公告</string>
+    <string name="hlsdb_mt_qii_quote">行情</string>
+    <string name="hlsdb_naps_lable">每股净资产</string>
+    <string name="hlsdb_offer10_label">卖十</string>
+    <string name="hlsdb_offer1_label">卖一</string>
+    <string name="hlsdb_offer2_label">卖二</string>
+    <string name="hlsdb_offer3_label">卖三</string>
+    <string name="hlsdb_offer4_label">卖四</string>
+    <string name="hlsdb_offer5_label">卖五</string>
+    <string name="hlsdb_offer6_label">卖六</string>
+    <string name="hlsdb_offer7_label">卖七</string>
+    <string name="hlsdb_offer8_label">卖八</string>
+    <string name="hlsdb_offer9_label">卖九</string>
+    <string name="hlsdb_pct_of_total_shares_lable">占总股本比例</string>
+    <string name="hlsdb_sh_list_lable">股东名单</string>
+    <string name="hlsdb_share_holder_Lable">股东</string>
+    <string name="hlsdb_share_holder_average_number_Lable">户均持股数</string>
+    <string name="hlsdb_share_holder_first_Lable">第一大股东</string>
+    <string name="hlsdb_share_holder_first_radio_Lable">第一大股东占比</string>
+    <string name="hlsdb_share_holder_number_Lable">股东户数</string>
+    <string name="hlsdb_share_holder_orgination_radio_Lable">结构投资者占比</string>
+    <string name="hlsdb_stock_info_finals">财务</string>
+    <string name="hlsdb_stock_info_means">资料</string>
+    <string name="hlsdb_ten_share_holder_lable">十大流通股东</string>
+    <string name="hlsdb_total_assets_lable">资产合计</string>
+    <string name="hlsdb_total_current_assets_lable">流动资产合计</string>
+    <string name="hlsdb_total_current_liability_lable">流动负债合计</string>
+    <string name="hlsdb_total_liability_lable">负债合计</string>
+    <string name="hlsdb_total_non_current_assets_lable">非流动资产合计</string>
+    <string name="hlsdb_total_oper_revenueps_lable">每股营业总收入</string>
+    <string name="hlsdb_total_shareholder_equity_lable">股东权益合计</string>
+    <string name="hlsdlg_Level2_process_btn">立即续费</string>
+    <string name="hlsdlg_Level2_process_info">亲爱的XXXXX（用户名） \n 您的Level2权限已于2011-11-11到期</string>
+    <string name="hlsdlg_bid10_label">买十</string>
+    <string name="hlsdlg_bid1_label">买一</string>
+    <string name="hlsdlg_bid2_label">买二</string>
+    <string name="hlsdlg_bid3_label">买三</string>
+    <string name="hlsdlg_bid4_label">买四</string>
+    <string name="hlsdlg_bid5_label">买五</string>
+    <string name="hlsdlg_bid6_label">买六</string>
+    <string name="hlsdlg_bid7_label">买七</string>
+    <string name="hlsdlg_bid8_label">买八</string>
+    <string name="hlsdlg_bid9_label">买九</string>
+    <string name="hlsdlg_level2_buy_already"><u>我已购买</u></string>
+    <string name="hlsdlg_level2_tel_number"><u>客服:0571-26695555</u></string>
+    <string name="hlsdlg_offer10_label">卖十</string>
+    <string name="hlsdlg_offer1_label">卖一</string>
+    <string name="hlsdlg_offer2_label">卖二</string>
+    <string name="hlsdlg_offer3_label">卖三</string>
+    <string name="hlsdlg_offer4_label">卖四</string>
+    <string name="hlsdlg_offer5_label">卖五</string>
+    <string name="hlsdlg_offer6_label">卖六</string>
+    <string name="hlsdlg_offer7_label">卖七</string>
+    <string name="hlsdlg_offer8_label">卖八</string>
+    <string name="hlsdlg_offer9_label">卖九</string>
+    <string name="hlsdlg_qii_bsi_my_double">--</string>
+    <style name="hlkb_QwKeyboardButtonStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginLeft">@dimen/hlkb_keyboard_num_btn_xpadding</item>
+        <item name="android:layout_marginRight">@dimen/hlkb_keyboard_num_btn_xpadding</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:background">@drawable/hlkb_keyboard_but_a</item>
+        <item name="android:gravity">center</item>
+        <item name="android:padding">0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">@dimen/font_size_16</item>
+    </style>
+    <style name="hlkb_QwKeyboardDividerStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">1dip</item>
+        <item name="android:layout_marginRight">5dip</item>
+        <item name="android:layout_marginLeft">5dip</item>
+        <item name="android:background">@color/hlkb_keyboard_divider_bg</item>
+    </style>
+    <style name="hlkb_QwKeyboardRowStyle">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_marginTop">@dimen/hlkb_keyboard_num_btn_ypadding</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+    <style name="hlkb_QwKeyboardTableButtonStyle" parent="hlkb_QwKeyboardButtonStyle">
+        <item name="android:layout_span">1</item>
+    </style>
+    <style name="hlsdb_QW_quote_nomal_label">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:minWidth">50dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/font_size_14</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/hlsdb_QW_quote_label</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+    <style name="hlsdb_bidoffer_label_Text_Style">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_size_10</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:textColor">@color/hlsdb_stock_code_color</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="hlsdb_bidoffer_price_Text_Style">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_size_10</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:text">@string/hlsdb_bsi_my_double</item>
+    </style>
+    <style name="hlsdb_bidoffer_volume_Text_Style">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_size_10</item>
+        <item name="android:textColor">@color/hlsdb_stock_amount_color</item>
+        <item name="android:gravity">right</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:text">@string/hlsdb_bsi_my_double</item>
+    </style>
+    <style name="hlsdb_home_bar_nomal_value">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">32dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/font_size_16</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:textColor">@drawable/hlsdb_selector_home_button_color</item>
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:paddingRight">10dip</item>
+    </style>
+    <style name="hlsdb_level2_label_Text_Style">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:textColor">#999999</item>
+        <item name="android:gravity">left</item>
+    </style>
+    <style name="hlsdb_level2_price_Text_Style">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:text">@string/hlsdb_bsi_my_double</item>
+    </style>
+    <style name="hlsdb_level2_volume_Text_Style">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/hlsdb_stock_amount_color</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingRight">9dp</item>
+        <item name="android:layout_marginTop">1px</item>
+        <item name="android:layout_marginBottom">1px</item>
+        <item name="android:text">@string/hlsdb_bsi_my_double</item>
+    </style>
+    <style name="hlsdb_progress_dialog" parent="@android:style/Theme.Dialog">
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+    <style name="hlsdb_quote_bar_nomal_value">
+        <item name="android:layout_width">0dip</item>
+        <item name="android:layout_height">32dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:textSize">@dimen/font_size_14</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/hlsdb_quote_bar_label</item>
+        <item name="android:background">@drawable/hlsdb_selector_top_tabbar_btn_background</item>
+    </style>
+    <style name="hlsdb_stock_info_final_value_txt_style">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_size_12</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:textColor">@color/hlsdb_stock_code_color</item>
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+    <style name="hlsdb_stock_info_means_header_txt_style">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_size_14</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+    <style name="hlsdb_stock_info_means_txt_style">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_size_12</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:textColor">@color/hlsdb_stock_code_color</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+    <style name="hlsdb_stock_info_means_txt_style_two">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_size_12</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:textColor">@color/hlsdb_stock_code_color</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+    <style name="hlsdb_stock_info_means_value_txt_style_one">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_size_12</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:textColor">@color/hlsdb_stock_code_color</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">4</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+    <style name="hlsdb_stock_info_means_value_txt_style_three">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_size_12</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:textColor">@color/hlsdb_stock_code_color</item>
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+    <style name="hlsdb_stock_info_means_value_txt_style_two">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_size_12</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:textColor">@color/hlsdb_stock_code_color</item>
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">4</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+    <style name="hlsdb_stock_info_ten_share_holder_value2_style">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_size_12</item>
+        <item name="android:textColor">@color/hlsdb_button_hit</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">4</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+    <style name="hlsdb_stock_info_ten_share_holder_value3_style">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_size_12</item>
+        <item name="android:textColor">@color/hlsdb_button_hit</item>
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+    <style name="hlsdlg_QW_quote_nomal_label">
+        <item name="android:layout_width">50dp</item>
+        <item name="android:minWidth">50dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">@dimen/font_size_14</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:textColor">@color/hlsdlg_QW_quote_label</item>
+        <item name="android:gravity">left|center_vertical</item>
+    </style>
+    <style name="hlsdlg_qii_bidoffer_label_Text_Style">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_size_10</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:textColor">@color/hlsdlg_stock_code_color</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+    </style>
+    <style name="hlsdlg_qii_bidoffer_price_Text_Style">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_size_10</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:text">@string/hlsdlg_qii_bsi_my_double</item>
+    </style>
+    <style name="hlsdlg_qii_bidoffer_volume_Text_Style">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_size_10</item>
+        <item name="android:textColor">@color/hlsdlg_stock_amount_color</item>
+        <item name="android:gravity">right</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:text">@string/hlsdlg_qii_bsi_my_double</item>
+    </style>
+    <style name="hlsdlg_qii_head_title_button_style">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_size_14</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">40dp</item>
+        <item name="android:layout_height">40dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:background">@android:color/transparent</item>
+    </style>
+    <style name="hlsdlg_qii_level2_label_Text_Style">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:textColor">#999999</item>
+        <item name="android:gravity">left</item>
+    </style>
+    <style name="hlsdlg_qii_level2_price_Text_Style">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/red</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:text">@string/hlsdlg_qii_bsi_my_double</item>
+    </style>
+    <style name="hlsdlg_qii_level2_volume_Text_Style">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:textColor">@color/hlsdlg_stock_amount_color</item>
+        <item name="android:gravity">right</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingRight">9dp</item>
+        <item name="android:layout_marginTop">1px</item>
+        <item name="android:layout_marginBottom">1px</item>
+        <item name="android:text">@string/hlsdlg_qii_bsi_my_double</item>
+    </style>
+    <style name="hlsdlg_qii_quote_focus_info_label">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textSize">@dimen/font_size_12</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_marginRight">5dip</item>
+        <item name="android:layout_marginLeft">10dip</item>
+        <item name="android:textColor">@color/hlsdlg_qii_quote_bar_label</item>
+    </style>
+    <style name="hlsdlg_qii_quote_focus_info_value">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:textSize">@dimen/font_size_12</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="hlsdlg_stock_info_final_value_txt_style">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_size_12</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:textColor">@color/hlsdlg_stock_code_color</item>
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+    <style name="hlsdlg_stock_info_means_header_txt_style">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_size_14</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+    </style>
+    <style name="hlsdlg_stock_info_means_txt_style">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_size_12</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:textColor">@color/hlsdlg_stock_code_color</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+    <style name="hlsdlg_stock_info_means_txt_style_two">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_size_12</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:textColor">@color/hlsdlg_stock_code_color</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+    <style name="hlsdlg_stock_info_means_value_txt_style_one">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_size_12</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:textColor">@color/hlsdlg_stock_code_color</item>
+        <item name="android:gravity">left|center_vertical</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">4</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+    <style name="hlsdlg_stock_info_means_value_txt_style_three">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_size_12</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:textColor">@color/hlsdlg_stock_code_color</item>
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">3</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+    <style name="hlsdlg_stock_info_means_value_txt_style_two">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_size_12</item>
+        <item name="android:paddingLeft">5dip</item>
+        <item name="android:textColor">@color/hlsdlg_stock_code_color</item>
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">4</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+    <style name="hlsdlg_stock_info_ten_share_holder_value2_style">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_size_12</item>
+        <item name="android:textColor">@color/hlsdlg_qii_button_hit</item>
+        <item name="android:gravity">left</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">4</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+    <style name="hlsdlg_stock_info_ten_share_holder_value3_style">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/font_size_12</item>
+        <item name="android:textColor">@color/hlsdlg_qii_button_hit</item>
+        <item name="android:gravity">right|center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_marginTop">5dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+    </style>
+</resources>

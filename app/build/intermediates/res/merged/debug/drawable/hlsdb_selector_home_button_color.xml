@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:state_checked="true" android:color="@color/hlsdb_app_navi_bar_font_color_selected"></item>
+    <item android:state_selected="true" android:color="@color/hlsdb_app_navi_bar_font_color_selected"></item>
+    <item android:state_checked="false" android:color="@color/hlsdb_c494949"></item>
+    <item android:state_selected="false" android:color="@color/hlsdb_c494949"></item>
+
+</selector><!-- From: file:/Users/lxy/Desktop/hs/app/build/intermediates/exploded-aar/quotewidget/res/drawable/hlsdb_selector_home_button_color.xml -->

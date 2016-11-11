@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/stockInfomationlinearLayout">
+
+    <GridView
+        android:id="@+id/myGridView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignLeft="@id/myGridView"
+        android:layout_alignRight="@id/myGridView"
+        android:orientation="horizontal"
+        android:weightSum="3">
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="70dp"
+            android:layout_weight="1">
+            <com.hundsun.quotewidget.widget.QiiAutoTextSizeView
+                android:id="@+id/quote_last"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="100dp"
+                android:gravity="center_horizontal"
+                android:textSize="@dimen/font_size_24"
+                android:text="9.0"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="9dp"/>
+            <com.hundsun.quotewidget.widget.QiiAutoTextSizeView
+                android:id="@+id/quote_updown"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="43dp"
+                android:layout_marginLeft="9dp"
+                android:textSize="@dimen/font_size_14"
+                android:text="-1.00"
+                android:layout_marginTop="43dp"/>
+            <com.hundsun.quotewidget.widget.QiiAutoTextSizeView
+                android:id="@+id/quote_updown_percent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:minWidth="43dp"
+                android:layout_toRightOf="@id/quote_updown"
+                android:layout_alignTop="@id/quote_updown"
+                android:layout_marginLeft="13dp"
+                android:textSize="@dimen/font_size_14"
+                android:text="-1.21%"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/B1"
+                android:singleLine="true"
+                style="@style/hlsdlg_QW_quote_nomal_label"
+                android:gravity="left|center_vertical"
+                android:textSize="@dimen/font_size_13"
+                android:minHeight="26dp"
+                android:text="b1"/>
+
+            <com.hundsun.quotewidget.widget.QiiAutoTextSizeView
+                android:id="@+id/B2"
+                android:singleLine="true"
+                android:textColor="@color/hlsdlg_QW_quote_nomal_text_color"
+                android:layout_width="wrap_content"
+                android:minWidth="55dp"
+                android:textSize="@dimen/font_size_18"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/B1"
+                android:layout_alignTop="@id/B1"
+                android:minHeight="26dp"
+                android:gravity="left|center_vertical"
+                android:text="b2"/>
+
+            <TextView
+                android:id="@+id/B3"
+                android:singleLine="true"
+                style="@style/hlsdlg_QW_quote_nomal_label"
+                android:layout_alignLeft="@id/B1"
+                android:layout_below="@id/B1"
+                android:gravity="left|center_vertical"
+                android:textSize="@dimen/font_size_13"
+                android:minHeight="26dp"
+                android:text="b3"/>
+
+            <com.hundsun.quotewidget.widget.QiiAutoTextSizeView
+                android:id="@+id/B4"
+                android:singleLine="true"
+                android:textColor="@color/hlsdlg_QW_quote_nomal_text_color"
+                android:layout_width="wrap_content"
+                android:minWidth="55dp"
+                android:textSize="@dimen/font_size_18"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/B3"
+                android:layout_alignTop="@id/B3"
+                android:minHeight="26dp"
+                android:gravity="left|center_vertical"
+                android:text="b4" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:layout_marginTop="3dp"
+            android:layout_weight="1">
+            <TextView
+                android:id="@+id/C1"
+                android:singleLine="true"
+                style="@style/hlsdlg_QW_quote_nomal_label"
+                android:gravity="left|center_vertical"
+                android:textSize="@dimen/font_size_13"
+                android:minHeight="26dp"
+                android:text="b1" />
+
+            <com.hundsun.quotewidget.widget.QiiAutoTextSizeView
+                android:id="@+id/C2"
+                android:singleLine="true"
+                android:textColor="@color/hlsdlg_QW_quote_nomal_text_color"
+                android:layout_width="wrap_content"
+                android:minWidth="55dp"
+                android:textSize="@dimen/font_size_18"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/C1"
+                android:layout_alignTop="@id/C1"
+                android:minHeight="26dp"
+                android:gravity="left|center_vertical"
+                android:text="b2" />
+
+            <TextView
+                android:id="@+id/C3"
+                android:singleLine="true"
+                style="@style/hlsdlg_QW_quote_nomal_label"
+                android:layout_alignLeft="@id/C1"
+                android:layout_below="@id/C1"
+                android:textSize="@dimen/font_size_13"
+                android:minHeight="26dp"
+                android:gravity="left|center_vertical"
+                android:text="b3"/>
+
+            <com.hundsun.quotewidget.widget.QiiAutoTextSizeView
+                android:id="@+id/C4"
+                android:singleLine="true"
+                android:textColor="@color/hlsdlg_QW_quote_nomal_text_color"
+                android:layout_width="wrap_content"
+                android:minWidth="55dp"
+                android:textSize="@dimen/font_size_18"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/C3"
+                android:layout_alignTop="@id/C3"
+                android:minHeight="26dp"
+                android:gravity="left|center_vertical"
+                android:text="b4"/>
+        </RelativeLayout>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/stock_related_block_icon_layout"
+        android:layout_width="25dp"
+        android:layout_height="80dp"
+        android:paddingLeft="4dp"
+        android:layout_alignParentRight="true">
+
+        <ImageView
+            android:id="@+id/stock_related_block_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:scaleType="centerInside"
+            android:background="@drawable/hlsdlg_stock_related_block_icon" />
+    </LinearLayout>
+
+</RelativeLayout><!-- From: file:/Users/lxy/Desktop/hs/app/build/intermediates/exploded-aar/quotewidget/res/layout/hlsdlg_gridview_layout_parent.xml -->
